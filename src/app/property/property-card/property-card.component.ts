@@ -4,7 +4,7 @@ import { Component } from "@angular/core";
     {
         selector:'app-property-card',
        //template:`<h1> I am Card</h1>`,
-       templateUrl: 'property-card.component.html',
+        templateUrl:'property-card.component.html',
       //  styles:['h1{font-weight:normal};']
         styleUrls:['property-card.component.css']
     }
@@ -12,3 +12,5 @@ import { Component } from "@angular/core";
 export class PropertyCardComponent{
 
 }
+
+

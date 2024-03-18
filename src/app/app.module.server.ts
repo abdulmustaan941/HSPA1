@@ -3,13 +3,12 @@ import { ServerModule } from '@angular/platform-server';
 
 import { AppModule } from './app.module';
 import { AppComponent } from './app.component';
-//import { PropertyCardComponent } from './property/property-card/property-card.component';
 
-//@NgModule({
- // imports: [
- //   AppModule,
- //   ServerModule,
- // ],
- // bootstrap: [AppComponent],
-//})
-//export class AppServerModule {}
+@NgModule({
+  imports: [
+    AppModule,
+    ServerModule,
+  ],
+  bootstrap: [AppComponent],
+})
+export class AppServerModule {}
