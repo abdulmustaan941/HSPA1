@@ -15,11 +15,8 @@ export class PropertyListComponent implements OnInit {
   ngOnInit(): void {
     this.housingService.getAllProperties().subscribe(
         data => {
-        this.properties!= data;
+        this.properties= data;
         console.log(data);
-      }, error => {
-        console.log('httperror:');
-        console.log(error);
       }
     );
   }
