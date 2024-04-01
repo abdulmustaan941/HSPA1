@@ -17,6 +17,7 @@ const appRoutes: Routes = [
   {path: 'add-property', component: AddPropertyComponent},
   {path: 'property-detail/:id', component: PropertyDetailComponent},
   {path: '**', component: PropertyListComponent}
+  
 ];
 @NgModule({
   declarations: [
@@ -25,7 +26,6 @@ const appRoutes: Routes = [
     PropertyListComponent,
     NavBarComponent,
     AddPropertyComponent,
-    PropertyDetailComponent,
     PropertyDetailComponent
     
   ],
