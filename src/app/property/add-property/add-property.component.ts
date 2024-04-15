@@ -14,6 +14,11 @@ export class AddPropertyComponent {
     
    }
   ngOnInit() {
+    
+
+    setTimeout(() => {
+      this.addPropertyForm?.controls['Name'].setValue('Default Value');
+    });
   }
 
   onBack() {
