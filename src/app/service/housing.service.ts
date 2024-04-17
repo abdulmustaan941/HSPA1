@@ -23,5 +23,6 @@ export class HousingService {
       return propertiesArray;
       })
     );
+    return this.http.get<IProperty[]>('data/properties.json');
   }
 }
