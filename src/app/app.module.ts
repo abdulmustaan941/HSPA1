@@ -16,7 +16,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { UserService } from './service/user.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthService } from './service/auth.service';
-
+//import { TabsModule } from 'ngx-bootstrap/tabs';
+//import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 const appRoutes: Routes = [
   {path: '', component: PropertyListComponent},
@@ -49,6 +50,8 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
   // BsDropdownModule.forRoot(),
+ // TabsModule.forRoot(),
+     // ButtonsModule.forRoot() 
     FormsModule,
     ReactiveFormsModule,
   ],
