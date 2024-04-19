@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import{HttpClientModule} from '@angular/common/http';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import{HttpClientModule, provideHttpClient, withFetch} from '@angular/common/http';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,8 +16,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { UserService } from './service/user.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthService } from './service/auth.service';
-//import { TabsModule } from 'ngx-bootstrap/tabs';
-//import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { TabsModule } from 'ngx-bootstrap/tabs';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 const appRoutes: Routes = [
   {path: '', component: PropertyListComponent},
@@ -40,8 +40,6 @@ const appRoutes: Routes = [
     //UserRegisterComponent,
     UserLoginComponent,
     
-
-    
   ],
   imports: [
     BrowserModule,
@@ -49,17 +47,19 @@ const appRoutes: Routes = [
     HttpClientModule,
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
-  // BsDropdownModule.forRoot(),
- // TabsModule.forRoot(),
-     // ButtonsModule.forRoot() 
+     //BsDropdownModule.forRoot(),
+     //TabsModule.forRoot(),
+     //ButtonsModule.forRoot(),
     FormsModule,
     ReactiveFormsModule,
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [
     provideClientHydration(),
     HousingService,
     UserService,
-    AuthService
+    AuthService,
+    provideHttpClient(withFetch())
   ],
   bootstrap: [AppComponent]
 })
