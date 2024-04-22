@@ -5,8 +5,6 @@
   <div class="card-body">
     <form (ngSubmit)='onSubmit()' #Form="ngForm">
       <div>
-        <>
-          <>
             <div class="form-group col-12">
               <input type="radio" id="sell" value="1" name="SellRent">
               <label class="m-2">Sell</label>
@@ -38,13 +36,7 @@
                 <input type="text" class="form-control" ngModel name="Price">
               </div>
 
-              <div class="form-group col-12">
-                  <button type="button" class="btn btn-primary btn-block"
-                  (click)="selectTab(1)">Next</button>
-              </div>
-          <>
-
-          <>
+      
               <div class="form-group col-12">
                 <label>Price (in USD)</label>
                 <input type="text" class="form-control">
@@ -70,17 +62,6 @@
                 <input type="text" class="form-control">
               </div>
 
-              <div class="form-group col-12">
-                <button type="button" class="btn btn-primary btn-block"
-                (click)="selectTab(2)">Next</button>
-
-                <button type="button" class="btn btn-primary btn-block"
-                (click)="selectTab(0)">Back</button>
-              </div>
-          <>
-
-          <>
-
             <div class="form-group col-12">
               <label>Floor</label>
               <input type="text" class="form-control">
@@ -101,16 +82,8 @@
               <input type="text" class="form-control">
             </div>
 
-              <div class="form-group col-12">
-                <button type="button" class="btn btn-primary btn-block"
-                (click)="selectTab(3)">Next</button>
-
-                <button type="button" class="btn btn-primary btn-block"
-                (click)="selectTab(1)">Back</button>
-              </div>
-          <>
-
-          <>
+           
+        
             <div class="form-group col-12">
               <label>Ready to Move</label><br/>
               <input type="radio" id='Yes' value='1' name="RTM">
@@ -145,28 +118,15 @@
               <textarea type="text" class="form-control" rows="6"></textarea>
             </div>
 
-            <div class="form-group col-12">
-                <button type="button" class="btn btn-primary btn-block"
-                (click)="selectTab(4)">Next</button>
-
-                <button type="button" class="btn btn-primary btn-block"
-                (click)="selectTab(2)">Back</button>
-             </div>
-          <>
-
-        <>
+      
             <div class="form-group col-12">
               <div class="photo-control">
                   <button class="mt-5" type="button">Upload</button> <br>
                   This is under construction
               </div>
             </div>
-            <div class="form-group col-12">
-              <button type="button" class="btn btn-primary btn-block"
-              (click)="selectTab(3)">Back</button>
-            </div>
-          <>
-        <>
+          
+      
       </div>
     </form>
   </div>
