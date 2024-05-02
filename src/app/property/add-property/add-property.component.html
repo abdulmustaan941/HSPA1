@@ -27,7 +27,7 @@
                   <p>BHK</p>
                   <div class="btn-group" btnRadioGroup
                   formControlName="BHK"
-                  [(ngModel)]="propertyView.bhk" name="BHK">
+                  [(ngModel)]="propertyView.Bhk" name="BHK">
                     <label
                       *ngFor="let bhk of [1,2,3,4]"
                       class="btn btn-outline-primary mr-2"
@@ -78,7 +78,7 @@
                   <input type="text" class="form-control"
                   ngModel
                   formControlName="Name"
-                  [(ngModel)]="propertyView.name">
+                  [(ngModel)]="propertyView.Name">
                   <div class="error-block"
                   *ngIf="Name.invalid && (nextClicked || Name.touched)">
                     Please select building, society or project name
@@ -114,7 +114,7 @@
                     <label *ngIf="SellRent.value==2">Rent (in USD)</label>
                     <input type="text" class="form-control"
                     formControlName="Price"
-                    [(ngModel)]="propertyView.price">
+                    [(ngModel)]="propertyView.Price">
                     <div class="error-block"
                     *ngIf="Price.invalid && (nextClicked || Price.touched)">
                       Please select
@@ -140,7 +140,7 @@
                     <label>Built Area (in Sqr Feet)</label>
                     <input type="text"
                     class="form-control"
-                    [(ngModel)]="propertyView.builtArea"
+                    [(ngModel)]="propertyView.BuiltArea"
                     formControlName="BuiltArea">
                     <div class="error-block"
                     *ngIf="BuiltArea.invalid && nextClicked">

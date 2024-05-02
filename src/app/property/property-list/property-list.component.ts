@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { HousingService } from '../../service/housing.service';
 import { HttpClient } from '@angular/common/http';
-import { IProperty } from '../IProperty.interface';
+
 import { ActivatedRoute } from '@angular/router';
+import { IProperty } from '../../model/iproperty';
+
+
 @Component({
   selector: 'app-property-list',
   templateUrl: './property-list.component.html',

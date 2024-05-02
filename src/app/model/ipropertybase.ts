@@ -1,17 +1,19 @@
 export interface IPropertyBase {
 FType: any;
 PType: any;
-  id: number;
-  sellRent: number;
-  name: string;
-  propertyType: string;
-  furnishingType: string;
-  price: number;
-  bhk: number;
-  builtArea: number;
-  city: string;
+  Id: number;
+  SellRent: number;
+  Name: string;
+  PropertyType: string;
+  FurnishingType: string;
+  Price: number;
+  Bhk: number;
+  BuiltArea: number;
+  City: string;
   RTM :string;
-  readyToMove: boolean;
-  photo?: string;
+  readonlyeadyToMove: boolean;
+  Photo?: string;
   estPossessionOn?: string;
+  Type : string;
+  city : string;
 }
