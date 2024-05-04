@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\data\\repo\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:data\\repo\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\data\\repo\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:data\\repo\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\interfaces\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:interfaces\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\data\\repo\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:data\\repo\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -13,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\data\\repo\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:data\\repo\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:controllers\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,33 +78,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Data\\Repo\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\UnitOfWork.cs",
+              "RelativeToolTip": "Data\\Repo\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:32:01.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:39.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ICityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\ICityRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repo\\ICityRepository.cs",
-              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\ICityRepository.cs",
-              "RelativeToolTip": "Data\\Repo\\ICityRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Interfaces\\ICityRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICityRepository.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Interfaces\\ICityRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T09:00:59.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CityRepository.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\CityRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repo\\CityRepository.cs",
               "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\CityRepository.cs",
               "RelativeToolTip": "Data\\Repo\\CityRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T09:00:11.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DatabaseContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Migrations\\DatabaseContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\DatabaseContextModelSnapshot.cs",
@@ -104,12 +138,11 @@
               "RelativeToolTip": "Migrations\\DatabaseContextModelSnapshot.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T08:01:50.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T08:01:50.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "WebAPI.http",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\WebAPI.http",
               "RelativeDocumentMoniker": "WebAPI.http",
@@ -121,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Controllers\\DataContext.cs",
               "RelativeDocumentMoniker": "Controllers\\DataContext.cs",
@@ -133,20 +166,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T06:58:33.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -154,12 +187,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-04T06:45:23.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T06:45:23.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "Data\\DatabaseContext.cs",
@@ -167,11 +199,12 @@
               "RelativeToolTip": "Data\\DatabaseContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T06:38:33.229Z"
+              "WhenOpened": "2024-05-04T06:38:33.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CityController.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "Controllers\\CityController.cs",
@@ -184,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "City.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Model\\City.cs",
               "RelativeDocumentMoniker": "Model\\City.cs",
@@ -192,16 +225,15 @@
               "RelativeToolTip": "Model\\City.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T06:42:26.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T06:42:26.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "WebAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\webapi\\WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\WebAPI.csproj",
               "RelativeDocumentMoniker": "WebAPI.csproj",
-              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\webapi\\WebAPI.csproj",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\WebAPI.csproj",
               "RelativeToolTip": "WebAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

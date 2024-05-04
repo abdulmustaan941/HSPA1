@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using WebAPI.Controllers;
 using WebAPI.Data;
 using WebAPI.Data.Repo;
+using WebAPI.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<ICityRepository, CityRepository>();
+//builder.Services.AddScoped<ICityRepository, CityRepository>();
+//builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddCors();
 
 var app = builder.Build();
