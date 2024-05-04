@@ -19,6 +19,7 @@ import { AuthService } from './service/auth.service';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { UserRegisterComponent } from './user/user-register/user-register.component';
+import { CommonModule } from '@angular/common';
 
 const appRoutes: Routes = [
   {path: '', component: PropertyListComponent},
@@ -46,12 +47,13 @@ const appRoutes: Routes = [
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    RouterModule,
-    BrowserAnimationsModule,
-     BsDropdownModule,
-     TabsModule,
+    RouterModule.forRoot(appRoutes),
+   // BrowserAnimationsModule.forRoot(),
+     BsDropdownModule.forRoot(),
+     TabsModule.forRoot(),
     ButtonsModule,
     FormsModule,
+    CommonModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [

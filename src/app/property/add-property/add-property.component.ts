@@ -22,13 +22,13 @@ export class AddPropertyComponent {
   addPropertyForm!: FormGroup;
   //@ViewChild('Form') addPropertyForm?: NgForm;
   @ViewChild('formTabs') formTabs!: TabsetComponent;
-cityList!: string[];
+
 nextClicked!: boolean;
 property = new Property()
 // Will come from masters
 propertyTypes: Array<string> = ['House', 'Apartment', 'Duplex']
 furnishTypes: Array<string> = ['Fully', 'Semi', 'Unfurnished']
-
+cityList!: any[];
 propertyView: IPropertyBase = {
   Id: 0,
   Name: '',

@@ -1,18 +1,29 @@
-using Microsoft.AspNetCore.Http;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebAPI.Data;
 
 namespace WebAPI.Controllers
 {
+ 
   [Route("api/[controller]")]
   [ApiController]
   public class CityController : ControllerBase
   {
+  
+    private readonly DataContext dc;
+    public CityController(DataContext dc)
+    {
+      this.dc = dc;
+    }
+
     // GET api/city
     [HttpGet("api/city")]
     [HttpGet]
-    public IEnumerable<string> Getstrings()
+    public IActionResult GetCities()
     {
-      return new string[] { "Atlanta", "New York", "Chicago", "Boston" };
+      var cities = dc.Cities.ToList();
+      return Ok(cities);
     }
   }
 }
