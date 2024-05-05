@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using WebAPI.Controllers;
+using WebAPI.Helpers;
 using WebAPI.Data;
 using WebAPI.Data.Repo;
 using WebAPI.Interfaces;
@@ -8,12 +9,13 @@ using WebAPI.Interfaces;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<DatabaseContext>(options =>
+builder.Services.AddDbContext<DataContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnnection")));
 builder.Services.AddControllers();  
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
 //builder.Services.AddScoped<ICityRepository, CityRepository>();
 //builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddCors();

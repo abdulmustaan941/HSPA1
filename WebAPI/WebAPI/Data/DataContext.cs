@@ -1,13 +1,14 @@
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using WebAPI.Models;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Data
 {
   public class DataContext : DbContext
   {
     public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
     public DbSet<City> Cities { get; set; }
-  }
 
+  }
 }
