@@ -19,6 +19,7 @@ builder.Services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
 //builder.Services.AddScoped<ICityRepository, CityRepository>();
 //builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddCors();
+//builder.Services.AddControllers().AddNewtonsoftJson();
 
 var app = builder.Build();
 
