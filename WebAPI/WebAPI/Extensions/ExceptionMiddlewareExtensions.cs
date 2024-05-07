@@ -19,7 +19,8 @@ namespace WebAPI.Extensions
       else
       {
         app.UseExceptionHandler(
-            options => {
+            options =>
+            {
               options.Run(
                           async context =>
                    {
