@@ -7,6 +7,10 @@ using WebAPI.Data.Repo;
 using WebAPI.Interfaces;
 using WebAPI.Extensions;
 using ServiceStack.Text;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using FluentAssertions.Common;
 
 internal class Program
 {
@@ -24,10 +28,24 @@ internal class Program
     builder.Services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
     //builder.Services.AddScoped<ICityRepository, CityRepository>();
     //builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-    builder.Services.AddCors();
-    //builder.Services.AddControllers().AddNewtonsoftJson();
+  //  var key = new SymmetricSecurityKey(Encoding.UTF8
+  //             .GetBytes("shhh.. this is my top secret"));
+  //  Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+  //      .AddJwtBearer(opt => {
+  //        opt.TokenValidationParameters = new TokenValidationParameters
+  //        {
+  //          ValidateIssuerSigningKey = true,
+  //          ValidateIssuer = false,
+  //          ValidateAudience = false,
+  //          IssuerSigningKey = key
+  //        };
+  //      });
+  //}
 
-    var app = builder.Build();
+  builder.Services.AddCors();
+    //builder.Services.AddControllers().AddNewtonsoftJson();
+    
+  var app = builder.Build();
 
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())

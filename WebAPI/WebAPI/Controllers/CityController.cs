@@ -8,10 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 using WebAPI.Dtos;
 using WebAPI.Interfaces;
 using WebAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 namespace WebAPI.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
+  [Authorize]
   public class CityController : ControllerBase
   {
     private readonly IUnitOfWork uow;
