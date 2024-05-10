@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { IProperty } from '../model/iproperty';
+import { Ikeyvaluepair } from 'app/model/IKeyValuePair';
 
 
 @Injectable({
@@ -11,9 +12,7 @@ import { IProperty } from '../model/iproperty';
 export class HousingService {
   [x: string]: any;
   
-  getFurnishingTypes() {
-    throw new Error('Method not implemented.');
-  }
+ 
   newPropID(): any {
     throw new Error('Method not implemented.');
   }
@@ -21,6 +20,14 @@ export class HousingService {
   addProperty(property: any) {
     throw new Error('Method not implemented.');
   }
+
+  getPropertyTypes(): Observable<Ikeyvaluepair[]> {
+    return this.http.get<Ikeyvaluepair[]>(this['baseUrl'] + '/propertytype/list');
+}
+
+getFurnishingTypes(): Observable<Ikeyvaluepair[]> {
+    return this.http.get<Ikeyvaluepair[]>(this['baseUrl'] + '/furnishingtype/list');
+}
 
   constructor(private http:HttpClient) { 
     

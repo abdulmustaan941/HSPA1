@@ -29,4 +29,7 @@ export class Property implements IPropertyBase {
     Description?: string;
     PostedOn!: string;
     PostedBy!: number;
+  PType: any;
+  FType: any;
+  RTM: any;
 }
