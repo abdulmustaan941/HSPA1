@@ -60,7 +60,7 @@ namespace WebAPI.Data.Repo
 
       User user = new User();
       user.Username = userName;
-      user.Password = passwordHash;
+     // user.Password = passwordHash.;
      //user.PasswordKey = passwordKey;
 
       dc.Users.Add(user);
