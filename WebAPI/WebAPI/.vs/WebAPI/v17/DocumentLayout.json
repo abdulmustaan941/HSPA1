@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\error\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:error\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\dtos\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,27 +47,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StringExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Extensions\\StringExtensions.cs",
-              "RelativeDocumentMoniker": "Extensions\\StringExtensions.cs",
-              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Extensions\\StringExtensions.cs",
-              "RelativeToolTip": "Extensions\\StringExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "ApiError.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Error\\ApiError.cs",
+              "RelativeDocumentMoniker": "Error\\ApiError.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Error\\ApiError.cs",
+              "RelativeToolTip": "Error\\ApiError.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T04:41:22.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CityDto.cs",
-              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Dtos\\CityDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\CityDto.cs",
-              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Dtos\\CityDto.cs",
-              "RelativeToolTip": "Dtos\\CityDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T04:14:46.143Z",
+              "WhenOpened": "2024-05-10T05:59:00.523Z",
               "EditorCaption": ""
             },
             {
@@ -80,7 +71,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Extensions\\StringExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\StringExtensions.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Extensions\\StringExtensions.cs",
+              "RelativeToolTip": "Extensions\\StringExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T04:41:22.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CityDto.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Dtos\\CityDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CityDto.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Dtos\\CityDto.cs",
+              "RelativeToolTip": "Dtos\\CityDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T04:14:46.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20240510022302_usertableupdate.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Migrations\\20240510022302_usertableupdate.cs",
               "RelativeDocumentMoniker": "Migrations\\20240510022302_usertableupdate.cs",
@@ -88,12 +104,11 @@
               "RelativeToolTip": "Migrations\\20240510022302_usertableupdate.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T02:23:02.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T02:23:02.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\UserRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repo\\UserRepository.cs",
@@ -105,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
@@ -117,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
@@ -135,7 +150,7 @@
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAiwEsAAAAFAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAwFkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T01:51:52.622Z",
               "EditorCaption": ""

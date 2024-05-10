@@ -1,5 +1,5 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import{HttpClientModule, provideHttpClient, withFetch} from '@angular/common/http';
+import{HTTP_INTERCEPTORS, HttpClientModule, provideHttpClient, withFetch} from '@angular/common/http';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +20,7 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { UserRegisterComponent } from './user/user-register/user-register.component';
 import { CommonModule } from '@angular/common';
+import { HttpErrorInterceptorService } from './service/httperror-interceptor.service';
 
 const appRoutes: Routes = [
   {path: '', component: PropertyListComponent},
@@ -61,7 +62,12 @@ const appRoutes: Routes = [
     HousingService,
     UserService,
     AuthService,
-    provideHttpClient(withFetch())
+    provideHttpClient(withFetch()),
+    {
+    provide: HTTP_INTERCEPTORS,
+    useClass: HttpErrorInterceptorService,
+    multi: true
+    }
   ],
   bootstrap: [AppComponent]
 })
