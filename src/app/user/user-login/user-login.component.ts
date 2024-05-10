@@ -3,6 +3,7 @@ import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AlertifyService } from '../../service/alertify.service';
 import { AuthService } from '../../service/auth.service';
+import { UserForLogin } from 'app/model/user';
 @Component({
   selector: 'app-user-login',
   templateUrl: './user-login.component.html',
@@ -28,4 +29,6 @@ ngOnInit() {
 //this.alertify.error('User id or password is wrong');
 //}
 //}
+
+// 
 }
