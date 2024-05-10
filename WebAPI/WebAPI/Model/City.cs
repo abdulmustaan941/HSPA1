@@ -1,14 +1,21 @@
 using System.ComponentModel.DataAnnotations;
-namespace WebAPI.Models
-  {
-    public class City
-    {
-      public int Id { get; set; }
-      public string Name { get; set; }
-    [Required]
-    public string Country { get; set; }
-    public DateTime LastUpdatedOn { get; set; }
-     public int LastUpdatedBy { get; set; }
-  }
-  }
+using System.ComponentModel.DataAnnotations.Schema;
 
+namespace WebAPI.Models
+{
+  public class City : BaseEntity
+  {
+    public City(string name, string country)
+    {
+      this.Name = name;
+      this.Country = country;
+
+    }
+    [Column(Order = 1)]
+    public string Name { get; set; }
+
+    [Required]
+    [Column(Order = 2)]
+    public string Country { get; set; }
+  }
+}

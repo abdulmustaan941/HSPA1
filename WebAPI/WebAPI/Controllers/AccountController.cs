@@ -29,7 +29,7 @@ namespace WebAPI.Controllers
     {
       var user = await uow.UserRepository.Authenticate(loginReq.UserName, loginReq.Password);
 
-      ApiError apiError = new ApiError()
+      ApiError apiError = new ApiError();
       if (user == null)
       {
         apiError.ErrorCode = Unauthorized().StatusCode;
@@ -88,6 +88,7 @@ namespace WebAPI.Controllers
         apiError.ErrorMessage = "User already exists, please try different user name";
         return BadRequest(apiError);
       }
+      return BadRequest(apiError);
     }
   }
 }
