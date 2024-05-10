@@ -40,7 +40,7 @@ propertyView: IPropertyBase = {
   builtArea: 0,
   city: '',
   //City: '',
-  readyToMove: 0,
+  readyToMove: true,
 
 };
 

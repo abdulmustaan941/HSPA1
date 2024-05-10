@@ -18,7 +18,7 @@ export class Property implements IPropertyBase {
     city!: string;
     FloorNo?: string;
     TotalFloor?: string;
-    readyToMove!: number;
+    readyToMove!:boolean;
     AOP?: string;
     MainEntrance?: string;
     Security?: number;
@@ -32,4 +32,8 @@ export class Property implements IPropertyBase {
   PType: any;
   FType: any;
   RTM: any;
+  estPossessionOn?: string;
+  CityId!: number;
+  furnishingTypeId!: number;
+  propertyTypeId!: number;
 }

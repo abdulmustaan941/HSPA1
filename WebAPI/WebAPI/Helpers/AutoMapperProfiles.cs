@@ -20,7 +20,7 @@ namespace WebAPI.Helpers
 
 
             CreateMap<FurnishingType, KeyValuePairDto>();            
-
+                CreateMap<Property, PropertyDto>().ReverseMap();
             CreateMap<PropertyType, KeyValuePairDto>();
     }
       
