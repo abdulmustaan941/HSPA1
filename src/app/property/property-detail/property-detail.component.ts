@@ -7,6 +7,9 @@ import { ActivatedRoute,Router } from '@angular/router';
 })
 export class PropertyDetailComponent implements OnInit {
   public propertyId!: number;
+property: any;
+galleryOptions: any;
+galleryImages: any;
   constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
