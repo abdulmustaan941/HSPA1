@@ -15,7 +15,12 @@ namespace WebAPI.Data
     }
     public ICityRepository CityRepository =>
         new CityRepository(dc);
+     
+        public IFurnishingTypeRepository FurnishingTypeRepository =>         
+            new FurnishingTypeRepository(dc);
 
+        public IPropertyTypeRepository PropertyTypeRepository =>         
+            new PropertyTypeRepository(dc);
     public IUserRepository UserRepository =>
       new UserRepository(dc);
 
