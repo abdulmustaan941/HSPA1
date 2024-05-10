@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Migrations\\20240510022302_usertableupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240510022302_usertableupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\data\\repo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:data\\repo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|c:\\users\\abdul\\onedrive\\desktop\\angular16\\hspa\\frontend\\webapi\\webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FAC39A-16EC-4924-8A70-DC98F7781480}|WebAPI.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240510022302_usertableupdate.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Migrations\\20240510022302_usertableupdate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240510022302_usertableupdate.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Migrations\\20240510022302_usertableupdate.cs",
+              "RelativeToolTip": "Migrations\\20240510022302_usertableupdate.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T02:23:02.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repo\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Data\\Repo\\UserRepository.cs",
+              "RelativeToolTip": "Data\\Repo\\UserRepository.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAvwD8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T02:03:12.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T02:00:49.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:58:21.423Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -30,13 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\Angular16\\HSPA\\frontend\\WebAPI\\WebAPI\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAiwEQAAAAAAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAiwEsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T01:51:52.622Z",
               "EditorCaption": ""

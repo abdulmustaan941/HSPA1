@@ -64,5 +64,15 @@ namespace WebAPI.Controllers
       var token = tokenHandler.CreateToken(tokenDescriptor);
       return tokenHandler.WriteToken(token);
     }
+    [HttpPost("register")]
+    public async Task<IActionResult> Register(LoginReqDto loginReq)
+    {
+      if (await uow.UserRepository.UserAlreadyExists(loginReq.UserName))
+        return BadRequest("User already exists, please try something else");
+
+      uow.UserRepository.Register(loginReq.UserName, loginReq.Password);
+      await uow.SaveAsync();
+      return StatusCode(201);
+    }
   }
 }
